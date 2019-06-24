@@ -46,7 +46,15 @@
     transition: .5s ease;
     backface-visibility: hidden;
   }
-  
+  #img02 {
+    opacity: 1;
+    display: block;
+    height: 10%;
+    width: 33.33%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+  }
 
   .middle {
     transition: .5s ease;
@@ -79,6 +87,11 @@
     transition: 0.3s;
   }
   #portrait-image {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  #img02 {
     border-radius: 5px;
     cursor: pointer;
     transition: 0.3s;
@@ -142,7 +155,7 @@
   .modal-content-long {
     margin: auto;
     display: block;
-    width: 15%;
+    width: 30%;
     height: 100%;
     max-width: 700px;
   }
@@ -180,14 +193,27 @@
     font-weight: bold;
     transition: 0.3s;
   }
-  
+  .close-long {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+  }
   .close:hover,
   .close:focus {
     color: #bbb;
     text-decoration: none;
     cursor: pointer;
   }
-  
+  .close-long:hover,
+  .close-long:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+  }
   /* 100% Image Width on Smaller Screens */
   @media only screen and (max-width: 700px){
     .modal-content {
