@@ -4,7 +4,8 @@ $('img').on('click', function(){
     console.log(elem)
     modal.style.display = 'block';
     modalImg.src = elem; 
-    $('#caption').html = this.alt
+    captionText.innerHTML = this.alt;
+//How to write pic name when modal shows
 })
 
 
@@ -18,7 +19,7 @@ var captionText = document.getElementById("caption");
 img.onclick = function(){
   modal.style.display = "block";
   modalImg.src = this.src;
-  captionText.innerHTML = this.alt;
+  
 }
 
 // Get the <span> element that closes the modal

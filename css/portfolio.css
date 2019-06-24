@@ -1,6 +1,17 @@
 #head {
-    font-size: 45px
+    font-size: 45px;
+    font-family: 'Nanum Gothic', sans-serif;
+
 }
+.title1{
+    color: white; 
+    font-size: 22px; 
+    font-family: 'Nanum Gothic', sans-serif;
+}
+.menu {
+    font-size: 18px
+}
+
 .gallery-name {
     position: absolute; 
     left: 45%; 
@@ -57,9 +68,26 @@
     cursor: pointer;
     transition: 0.3s;
   }
-  
+  #myName {
+      font-size: 40px;
+      font-family: 'Titillium Web', sans-serif;
+  }
+
   #myImg:hover {opacity: 0.7;}
-  
+  .first {
+      background-color: #E09740;
+      opacity: .75;
+       width: 100%; 
+       font-family: 'PT Sans', sans-serif;
+
+  }
+  .second {
+    background-color: #E07EB3;
+    opacity: .75;
+     width: 100%; 
+     font-family: 'PT Sans', sans-serif;
+
+}
   /* The Modal (background) */
   .modal {
     display: none; /* Hidden by default */
@@ -94,6 +122,7 @@
     color: #ccc;
     padding: 10px 0;
     height: 150px;
+    font-family: 'Nanum Gothic', sans-serif;
   }
   
   /* Add Animation - Zoom in the Modal */
