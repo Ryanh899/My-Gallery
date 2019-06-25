@@ -1,7 +1,7 @@
 var elem; 
 $('img').on('click', function(){
     elem = $(this).attr('src')
-    if ($(this).attr('id') !== "portrait-image") {
+    if ($(this).attr('id') !== "portrait-image" && $(this).attr('id') !== "img02") {
     modal.style.display = 'block';
     modalImg.src = elem; 
     captionText.innerHTML = this.alt;
